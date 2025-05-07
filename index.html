@@ -17,7 +17,7 @@
 
 <body class=" grid grid-cols-12  bg-gray-100 ">
 
- 
+
   <!-- Header -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-white border h-[13vh] p-4 flex justify-between items-center w-full">
     <!-- Logo & Brand -->
@@ -25,26 +25,30 @@
       <i class="fa-regular fa-user-plus text-blue-800 text-xl"></i>
       <a href="index.html" class="text-2xl font-bold text-blue-800">JobConnect</a>
     </div>
-  
+
     <!-- Navigation -->
-    <nav class="flex items-center gap-4 font-semibold text-gray-600">
+    <nav class="flex items-center gap-4 font-semibold text-gray-600" aria-label="Main navigation">
       <!-- Desktop-only nav links -->
       <div class="hidden lg:flex gap-4">
         <a href="#" class="hover:text-blue-800">Browse Work</a>
         <a href="#" class="hover:text-blue-800">Find Workers</a>
       </div>
-  
+
       <!-- Auth Buttons -->
-      <button
-        class="ml-2 px-4 py-2 bg-gray-100 text-black rounded-lg hover:bg-gray-200 h-[7vh] flex items-center justify-center"
-        aria-label="Sign up for JobConnect">
-        Sign Up
-      </button>
-      <button
-        class="ml-2 px-4 py-2 bg-blue-800 text-white rounded-lg hover:bg-blue-900 h-[7vh] flex items-center justify-center"
-        aria-label="Login to JobConnect">
-        Login
-      </button>
+      <a href="SignUp-page.html">
+        <button
+          class="ml-2 px-4 py-2 bg-gray-100 text-black rounded-lg hover:bg-gray-200 h-[7vh] flex items-center justify-center"
+          aria-label="Sign up for JobConnect">
+          Sign Up
+        </button>
+      </a>
+      <a href="Login-page.html">
+        <button
+          class="ml-2 px-4 py-2 bg-blue-800 text-white rounded-lg hover:bg-blue-900 h-[7vh] flex items-center justify-center"
+          aria-label="Login to JobConnect">
+          Login
+        </button>
+      </a>
     </nav>
   </header>
 
@@ -65,7 +69,8 @@
         <p class="text-lg text-cyan-50 mb-4">Find the right person for the job or discover opportunities that match <br>
           your skills. JobConnect brings together workers and recruiters in a <br> seamless platform.</p>
         <nav class="flex gap-4" aria-label="Action navigation">
-          <button type="button" class="bg-[#CF6C09] text-white px-6 py-2 rounded-lg hover:text-blue-800">Find Workers</button>
+          <button type="button" class="bg-[#CF6C09] text-white px-6 py-2 rounded-lg hover:text-blue-800">Find
+            Workers</button>
           <button type="button" class="bg-white text-blue-800 px-6 py-2 rounded-lg hover:text-black">Find Work</button>
         </nav>
       </div>
@@ -99,14 +104,13 @@
         class="lg:grid lg:grid-cols-3  lg:gap-8  lg:w-[95vw]  lg:mt-12      grid grid-cols-1  gap-2  w-[100vw]  mt-5 h-auto ">
 
         <div
-          class="bg-white p-6 rounded-lg hover:border-blue-800 hover:shadow-md transform transition-all duration-300 hover:-translate-y-1 active:translate-y-0 active:shadow-sm    flex flex-col justify-center items-center mb-8  border border-grey-100">
-          <i class="bi bi-person-plus  text-5xl text-blue-800 font-bold  flex   w-[27vw] mb-3"></i>
+          class="bg-white p-6 rounded-lg hover:border-blue-800 hover:shadow-md transform transition-all duration-300 hover:-translate-y-1 active:translate-y-0 active:shadow-sm flex flex-col justify-center items-center mb-8 border border-grey-100">
+          <i class="bi bi-person-plus text-5xl text-blue-800 font-bold flex w-[27vw] mb-3"></i>
           <div>
-            <h3 class="text-xl font-semibold mb-5 ">Create Your Profile</h3>
+            <h3 class="text-xl font-semibold mb-5">Create Your Profile</h3>
             <p class="text-black mb-5">Sign up as a worker or recruiter and build your profile with all the necessary
-              details.
-            </p>
-            <a href="" class="text-blue-700">Learn More </a>
+              details.</p>
+            <a href="SignUp-page.html" class="text-blue-700 hover:underline">Get Started</a>
           </div>
         </div>
 
@@ -173,8 +177,7 @@
   </section>
 
   <!-- Explore Job Categories  -->
-  <section
-    class="col-span-12 flex flex-col  h-[180vh]    lg:col-span-12 lg:flex lg:flex-col  lg:h-[100vh]   ">
+  <section class="col-span-12 flex flex-col  h-[180vh]    lg:col-span-12 lg:flex lg:flex-col  lg:h-[100vh]   ">
     <div class="flex flex-col items-center  gap-6      lg:flex lg:flex-col lg:items-center  lg:gap-6 ">
       <h1 class="text-3xl font-bold lg:mt-10 ">Explore Job Categories</h1>
       <p class="text-center lg:text-lg ">Find workers or jobs across a wide range of service categories</p>
@@ -260,52 +263,57 @@
   </section>
 
 
-                        <!-- Job Connecting -->
+  <!-- Job Connecting -->
 
   <section class="hidden lg:col-span-12 lg:bg-white  lg:flex lg:flex-col  lg:h-[100vh] lg:border     ">
-  
+
     <div class=" flex  gap-4 items-start   lg:h-[120vh]">
-  
-      <div  class="relative w-[46%] h-[100vh] overflow-hidden rounded-lg  ">
-        <img src="./images/WhatsApp_Image_2025-05-06_at_13.04.55_c46fa48e-removebg-preview (1).png" alt="A professional worker in action"
+
+      <div class="relative w-[46%] h-[100vh] overflow-hidden rounded-lg  ">
+        <img src="./images/WhatsApp_Image_2025-05-06_at_13.04.55_c46fa48e-removebg-preview (1).png"
+          alt="A professional worker in action"
           class="slide absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000" />
       </div>
       <div class="    lg:flex lg:flex-col lg:justify-center lg:w-[55vw]  lg:mt-40  items-center">
         <h1 class="text-6xl font-bold mb-6 text-[#0A2265] ">Job Connect</h1>
-        <div class="flex  gap-2 mt-2    h-[10vh] w-[35vw] items-center justify-center rounded-full bg-[#0A2265] ">
+        <section1  id="greeting" class="flex  gap-2 mt-2    h-[10vh] w-[35vw] items-center justify-center rounded-full bg-[#0A2265] ">
           <p class=" text-white font-semibold items-center flex justify-center text-xl ">is more</p>
           <p class="font-bold items-center flex justify-center text-xl text-[#CF6C09]">Targeted & Instant</p>
-        </div>
-        <p class="text-xl text-grey-200 mt-6  ">Register on JobConnect and get connected to the right workers or jobs</p>
+        </section1>
+        <p class="text-xl text-grey-200 mt-6  ">Register on JobConnect and get connected to the right workers or jobs
+        </p>
       </div>
     </div>
   </section>
 
 
   <!-- success story -->
-  <section
-    class=" col-span-12 flex flex-col  h-[180vh]    lg:col-span-12 lg:flex lg:flex-col  lg:h-[85vh] lg:mt-9">
+  <section class=" col-span-12 flex flex-col  h-[180vh]    lg:col-span-12 lg:flex lg:flex-col  lg:h-[85vh] lg:mt-9">
     <div class="flex flex-col items-center  gap-6 mt-4     lg:flex lg:flex-col lg:items-center  lg:gap-6 lg:mt-10 ">
       <h1 class="text-2xl font-bold lg:text-3xl ">Success Stories from Nigeria</h1>
-      <p class="text-center lg:text-lg ">Real experiences from Nigerians who have transformed their careers and businesses with JobSpark</p>
+      <p class="text-center lg:text-lg ">Real experiences from Nigerians who have transformed their careers and
+        businesses with JobSpark</p>
     </div>
 
     <div class="flex  items-center justify-center ">
       <div
         class="lg:grid lg:grid-cols-3  lg:gap-8  lg:w-[95vw]  lg:mt-12      grid grid-cols-1  gap-2  w-[100vw]  mt-5 h-auto ">
-    
+
         <div
           class="bg-white p-6 rounded-lg hover:border-blue-800 hover:shadow-md transform transition-all duration-300 hover:-translate-y-1 active:translate-y-0 active:shadow-sm    flex flex-col justify-center items-center mb-5  border border-grey-100">
-         
+
           <div>
-            <nav class="flex gap-2" aria-labelledby="Star rating navigation"><i class="bi bi-star-fill text-[#facc14]"></i> <i class="bi bi-star-fill text-[#facc14]"></i><i
-                            class="bi bi-star-fill text-[#facc14]"></i><i class="bi bi-star-fill text-[#facc14]"></i><i
-                            class="bi bi-star-fill text-[#facc14]"></i></nav>
-            <p class="text-black mb-5">"I needed reliable staff for my shop in Lagos and found qualified professionals within hours. JobSpark made it easy to
-            verify their credentials and choose the right people for my business."
+            <nav class="flex gap-2" aria-labelledby="Star rating navigation"><i
+                class="bi bi-star-fill text-[#facc14]"></i> <i class="bi bi-star-fill text-[#facc14]"></i><i
+                class="bi bi-star-fill text-[#facc14]"></i><i class="bi bi-star-fill text-[#facc14]"></i><i
+                class="bi bi-star-fill text-[#facc14]"></i></nav>
+            <p class="text-black mb-5">"I needed reliable staff for my shop in Lagos and found qualified professionals
+              within hours. JobSpark made it easy to
+              verify their credentials and choose the right people for my business."
             </p>
             <div class="flex  gap-2 mt-4 ">
-              <p class="bg-blue-800 rounded-full w-10 h-10 text-white font-semibold items-center flex justify-center ">C</p>
+              <p class="bg-blue-800 rounded-full w-10 h-10 text-white font-semibold items-center flex justify-center ">C
+              </p>
               <p class="font-bold flex">Chioma Okafor</p>
             </div>
             <div class="flex   ml-10 justify-center  w-32">
@@ -316,16 +324,19 @@
 
         <div
           class="bg-white p-6 rounded-lg hover:border-blue-800 hover:shadow-md transform transition-all duration-300 hover:-translate-y-1 active:translate-y-0 active:shadow-sm    flex flex-col justify-center items-center mb-8  border border-grey-100">
-          
+
           <div>
-            <nav class="flex gap-2" aria-labelledby="Star rating navigation"><i class="bi bi-star-fill text-[#facc14]"></i> <i class="bi bi-star-fill text-[#facc14]"></i><i
-                            class="bi bi-star-fill text-[#facc14]"></i><i class="bi bi-star-fill text-[#facc14]"></i><i
-                            class="bi bi-star-fill text-[#facc14]"></i></nav>
-            <p class="text-black mb-5">"Since joining JobSpark, I've secured consistent work across Lagos and Abuja. The platform handles all the payment
-            details securely so I can focus on delivering quality service to my clients."
+            <nav class="flex gap-2" aria-labelledby="Star rating navigation"><i
+                class="bi bi-star-fill text-[#facc14]"></i> <i class="bi bi-star-fill text-[#facc14]"></i><i
+                class="bi bi-star-fill text-[#facc14]"></i><i class="bi bi-star-fill text-[#facc14]"></i><i
+                class="bi bi-star-fill text-[#facc14]"></i></nav>
+            <p class="text-black mb-5">"Since joining JobSpark, I've secured consistent work across Lagos and Abuja. The
+              platform handles all the payment
+              details securely so I can focus on delivering quality service to my clients."
             </p>
             <div class="flex  gap-2 mt-4 ">
-              <p class="bg-blue-800 rounded-full w-10 h-10 text-white font-semibold items-center flex justify-center ">C</p>
+              <p class="bg-blue-800 rounded-full w-10 h-10 text-white font-semibold items-center flex justify-center ">C
+              </p>
               <p class="font-bold flex">Chioma Okafor</p>
             </div>
             <div class="flex   ml-12 justify-center w-[15vw] border-black ">
@@ -335,36 +346,42 @@
         </div>
         <div
           class="bg-white p-6 rounded-lg hover:border-blue-800 hover:shadow-md transform transition-all duration-300 hover:-translate-y-1 active:translate-y-0 active:shadow-sm    flex flex-col justify-center items-center mb-8  border border-grey-100">
-          
+
           <div>
-            <nav class="flex gap-2" aria-label="Star rating navigation"><i class="bi bi-star-fill text-[#facc14]"></i> <i class="bi bi-star-fill text-[#facc14]"></i><i
-                class="bi bi-star-fill text-[#facc14]"></i><i class="bi bi-star-fill text-[#facc14]"></i>
-                <i class="bi bi-star"></i></nav>
-            <p class="text-black mb-5">"Finding temporary staff for our restaurant chain was always challenging until we discovered JobSpark. We can quickly
-            find verified workers with proper experience and NIN verification for complete peace of mind."
+            <nav class="flex gap-2" aria-label="Star rating navigation"><i class="bi bi-star-fill text-[#facc14]"></i>
+              <i class="bi bi-star-fill text-[#facc14]"></i><i class="bi bi-star-fill text-[#facc14]"></i><i
+                class="bi bi-star-fill text-[#facc14]"></i>
+              <i class="bi bi-star"></i>
+            </nav>
+            <p class="text-black mb-5">"Finding temporary staff for our restaurant chain was always challenging until we
+              discovered JobSpark. We can quickly
+              find verified workers with proper experience and NIN verification for complete peace of mind."
             </p>
-          <div class="flex  gap-2 mt-4 ">
-            <p class="bg-blue-800 rounded-full w-10 h-10 text-white font-semibold items-center flex justify-center ">C</p>
-            <p class="font-bold flex">Chioma Okafor</p>
-          </div>
-          <div class="flex   ml-12 justify-start  w-[15vw]  ">
-            <p>Restaurant Manager</p>
-          </div>
+            <div class="flex  gap-2 mt-4 ">
+              <p class="bg-blue-800 rounded-full w-10 h-10 text-white font-semibold items-center flex justify-center ">C
+              </p>
+              <p class="font-bold flex">Chioma Okafor</p>
+            </div>
+            <div class="flex   ml-12 justify-start  w-[15vw]  ">
+              <p>Restaurant Manager</p>
+            </div>
           </div>
         </div>
 
-        </div>
-        </div>
+      </div>
+    </div>
 
   </section>
 
 
   <!-- Ready to get started  -->
-   <section
+  <section
     class="col-span-12 flex flex-col  h-[40vh]    lg:col-span-12 lg:flex lg:flex-col  lg:h-[50vh]   bg-blue-800  ">
-    <div class="flex flex-col items-center mt-10 gap-6      lg:flex lg:flex-col lg:items-center lg:mt-16 lg:gap-6 text-white ">
+    <div
+      class="flex flex-col items-center mt-10 gap-6      lg:flex lg:flex-col lg:items-center lg:mt-16 lg:gap-6 text-white ">
       <h1 class="text-3xl font-bold ">Ready to Get Started?</h1>
-      <p class="text-center lg:text-lg ">Join thousands of workers and recruiters already using JobConnect to connect and
+      <p class="text-center lg:text-lg ">Join thousands of workers and recruiters already using JobConnect to connect
+        and
         grow their businesses.</p>
       <nav class="flex gap-4" aria-label="Action navigation">
         <button type="button" class="bg-white text-blue-800 px-6 py-2 rounded-lg font-semibold">I Need to Hire</button>
@@ -377,9 +394,10 @@
   <!-- footer section 1 -->
 
   <section class=" flex col-span-12 h-[140vh] bg-white lg:flex lg:col-span-12 lg:h-[40vh] lg:bg-white ">
-    <footer class=" lg:h-[30vh]  lg:col-span-12 mt-10 pt-5 lg:gap-14 lg:justify-evenly  lg:ml-5  lg:flex      grid grid-cols-1 ">
+    <footer
+      class=" lg:h-[30vh]  lg:col-span-12 mt-10 pt-5 lg:gap-14 lg:justify-evenly  lg:ml-5  lg:flex      grid grid-cols-1 ">
       <div class=" w-[95vw]  py-4 px-7 lg:w-[30vw]  lg:py-4 lg:px-7  ">
-      <a href="index.html" class="text-2xl font-bold text-blue-800 ">JobSpark</a>
+        <a href="index.html" class="text-2xl font-bold text-blue-800 ">JobSpark</a>
         <div class=" text-left opacity-60 mt-4">
           <p>Connecting skilled workers with quality jobs, empowering communities one opportunity at a time.</p>
         </div>
@@ -389,11 +407,11 @@
         <h1 class="font-bold text-black mb-4">For Workers</h1>
         <div class=" text-black opacity-60">
           <ul>
-          <li><a href="" class=" lg:hover:text-blue-800">Browse Work</a></li>
-          <li><a href="" class=" lg:hover:text-blue-800">Find Jobs</a></li>
-          <li><a href="" class=" lg:hover:text-blue-800">How It Works</a></li>
+            <li><a href="" class=" lg:hover:text-blue-800">Browse Work</a></li>
+            <li><a href="" class=" lg:hover:text-blue-800">Find Jobs</a></li>
+            <li><a href="" class=" lg:hover:text-blue-800">How It Works</a></li>
           </ul>
-          
+
         </div>
       </div>
 
@@ -454,6 +472,18 @@
       slides[current].classList.remove('opacity-0');
       slides[current].classList.add('opacity-100');
     }, 6000); // 8 seconds
+
+
+
+
+    let color = document.getElementsByTagName("section1")
+    color[0].style.backgroundColor = "blue"
+      setInterval(() => {
+        color[0].style.backgroundColor = "purple"
+        setTimeout(() => {
+          color[0].style.backgroundColor = "blue"
+        }, 2000)
+      }, 4000)
   </script>
 
 
