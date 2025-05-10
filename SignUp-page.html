@@ -9,43 +9,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="src/output.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  
-    
+
+
 </head>
 
 <body class="bg-gray-100 grid grid-cols-12 items-center justify-center min-h-screen">
 
     <!-- Header -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-white border h-[13vh] p-4 flex justify-between items-center w-full">
+    <header
+        class="fixed top-0 left-0 right-0 z-50 bg-white border h-[13vh] p-4 flex justify-between items-center w-full">
         <!-- Logo & Brand -->
         <div class="flex items-center space-x-4">
-            <i class="fa-regular fa-user-plus text-blue-800 text-xl"></i>
+            <!-- <i class="fa-regular fa-user-plus text-blue-800 text-xl"></i> -->
             <a href="index.html" class="text-2xl font-bold text-blue-800">JobConnect</a>
         </div>
-    
+
         <!-- Navigation -->
         <nav class="flex items-center gap-4 font-semibold text-gray-600">
             <!-- Desktop-only nav links -->
             <div class="hidden lg:flex gap-4">
-                <a href="#" class="hover:text-blue-800">Browse Work</a>
+                <a href="browse-work.html" class="hover:text-blue-800">Browse Work</a>
                 <a href="Find-workers.html" class="hover:text-blue-800">Find Workers</a>
             </div>
-    
-        <!-- Auth Buttons -->
-        <a href="SignUp-page.html">
-            <button
-                class="ml-2 px-4 py-2 bg-gray-100 text-black rounded-lg hover:bg-gray-200 h-[7vh] flex items-center justify-center"
-                aria-label="Sign up for JobConnect">
-                Sign Up
-            </button>
-        </a>
-        <a href="Login-page.html">
-            <button
-                class="ml-2 px-4 py-2 bg-blue-800 text-white rounded-lg hover:bg-blue-900 h-[7vh] flex items-center justify-center"
-                aria-label="Login to JobConnect">
-                Login
-            </button>
-        </a>
+
+            <!-- Auth Buttons -->
+            <a href="SignUp-page.html">
+                <button
+                    class="ml-2 px-4 py-2 bg-gray-100 text-black rounded-lg hover:bg-gray-200 h-[7vh] flex items-center justify-center"
+                    aria-label="Sign up for JobConnect">
+                    Sign Up
+                </button>
+            </a>
+            <a href="Login-page.html">
+                <button
+                    class="ml-2 px-4 py-2 bg-blue-800 text-white rounded-lg hover:bg-blue-900 h-[7vh] flex items-center justify-center"
+                    aria-label="Login to JobConnect">
+                    Login
+                </button>
+            </a>
         </nav>
     </header>
 
@@ -82,10 +83,10 @@
                         <label for="Full Names"
                             class="block text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Full
                             Names</label>
-                        <input type="text" placeholder="Full Names (first name first)" class="w-full px-4 py-2 border rounded-lg"
-                            required />
+                        <input type="text" placeholder="Full Names (first name first)"
+                            class="w-full px-4 py-2 border rounded-lg" required />
                     </div>
-                    
+
 
 
                     <div class="gap-2 flex flex-col">
@@ -122,11 +123,11 @@
                     <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Create
                         Recruiter Account</button>
 
-                        <!-- Login link -->
-                        <p class="text-center text-sm text-gray-600 mt-6">
-                            Already have an account?
-                            <a href="Login-page.html" class="text-blue-800 hover:underline font-medium">Login</a>
-                        </p>
+                    <!-- Login link -->
+                    <p class="text-center text-sm text-gray-600 mt-6">
+                        Already have an account?
+                        <a href="Login-page.html" class="text-blue-800 hover:underline font-medium">Login</a>
+                    </p>
                 </form>
 
                 <!-- Worker Form -->
@@ -134,9 +135,10 @@
 
                     <div class="gap-2 flex flex-col">
                         <label for="Full Names"
-                            class="block text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Full Names</label>
-                        <input type="text" placeholder="Full Names (first name first)" class="w-full px-4 py-2 border rounded-lg"
-                            required />
+                            class="block text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Full
+                            Names</label>
+                        <input type="text" placeholder="Full Names (first name first)"
+                            class="w-full px-4 py-2 border rounded-lg" required />
                     </div>
 
                     <div class="gap-2 flex flex-col">
@@ -173,17 +175,17 @@
                     <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Create
                         Worker Account</button>
 
-                        <!-- Login link -->
-                        <p class="text-center text-sm text-gray-600 mt-6">
-                            Already have an account?
-                            <a href="Login-page.html" class="text-blue-800 hover:underline font-medium">Login</a>
-                        </p>
+                    <!-- Login link -->
+                    <p class="text-center text-sm text-gray-600 mt-6">
+                        Already have an account?
+                        <a href="Login-page.html" class="text-blue-800 hover:underline font-medium">Login</a>
+                    </p>
                 </form>
             </div>
         </div>
     </section>
     <!-- footer  -->
-    
+
     <section class=" flex col-span-12 h-[140vh]  lg:flex lg:col-span-12 lg:h-[40vh] bg-gray-100 ">
         <footer
             class=" lg:h-[30vh]  lg:col-span-12 mt-10 pt-5 lg:gap-14 lg:justify-evenly  lg:ml-5  lg:flex      grid grid-cols-1 ">
@@ -198,26 +200,26 @@
                 <h1 class="font-bold text-black mb-4">For Workers</h1>
                 <div class=" text-black opacity-60">
                     <ul>
-                        <li><a href="" class=" lg:hover:text-blue-800">Browse Work</a></li>
-                        <li><a href="" class=" lg:hover:text-blue-800">Find Jobs</a></li>
+                        <li><a href="browse-work.html" class=" lg:hover:text-blue-800">Browse Work</a></li>
+                        <li><a href="browse-work.html" class=" lg:hover:text-blue-800">Find Jobs</a></li>
                         <li><a href="" class=" lg:hover:text-blue-800">How It Works</a></li>
                     </ul>
-    
+
                 </div>
             </div>
-    
+
             <div class="py-4 px-7  ">
                 <h1 class="font-bold text-black mb-4">For Recruiters</h1>
                 <div class=" text-black opacity-60">
                     <ul>
-                        <li><a href="" class=" lg:hover:text-blue-800">Create Account</a></li>
-                        <li><a href="" class=" lg:hover:text-blue-800">Find Workers</a></li>
+                        <li><a href="SignUp-page.html" class=" lg:hover:text-blue-800">Create Account</a></li>
+                        <li><a href="Find-workers.html" class=" lg:hover:text-blue-800">Find Workers</a></li>
                         <li><a href="" class=" lg:hover:text-blue-800">Post a Job</a></li>
                     </ul>
                 </div>
             </div>
-    
-    
+
+
             <div class="py-4 px-7 ">
                 <h1 class="font-bold text-black mb-4">Company</h1>
                 <div class=" text-black opacity-60">
@@ -229,15 +231,15 @@
                     </ul>
                 </div>
             </div>
-    
+
         </footer>
     </section>
     <section class=" flex col-span-12 h-[20vh] bg-white ">
         <div class=" text-black mt-5 flex justify-center items-center  w-[100vw] opacity-60 ">
             <p>&copy; 2025 JobConnect Connect Now. All rights reserved.</p>
-    
+
         </div>
-    
+
     </section>
 
 
